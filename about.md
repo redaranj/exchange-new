@@ -1,29 +1,37 @@
 ---
-layout: page
+layout: post
 title: About
 permalink: /about/
 ---
-# {{ page.title }}
+<!--# {{ page.title }} -->
 
 <p></p>
 
 - [Our mission and approach](#mission)
+- [Mutual respect](#respect)
 - [How we work](#work)
 - [Privacy, security, transparency, and accuracy](#privacy)
 - [How we vet providers](#vetting)
 - [The technology we use](#technology)
 - [How we started and how we are funded](#funding)
 - [Who we are](#who)
+- [FAQ](#who)
 
 <p></p>
 
 # Our mission and approach <a name="mission"></a>
 
-Digital Security Exchange (DSX) staff, Advisory Committee members, and providers are committed to increasing the digital safety and security of community-based organizations, legal and journalistic organizations, civil rights advocates, local and national organizers, and public and high-profile figures who are working to advance social, racial, political, and economic justice in our communities and our world.
+The DSX works to strengthen the digital resilience of U.S. civil society groups by improving their understanding and mitigation of online threats.
 
-We pair civil society and social sector organizations with credible and trustworthy digital security experts and trainers who can help them keep their data and networks safe from exposure, exploitation, and attack.
+We do this by pairing civil society and social sector organizations with credible and trustworthy digital security experts and trainers who can help them keep their data and networks safe from exposure, exploitation, and attack.
+We are committed to working with community-based organizations, legal and journalistic organizations, civil rights advocates, local and national organizers, and public and high-profile figures who are working to advance social, racial, political, and economic justice in our communities and our world.
 
-**We will not work with, and reserve the right to refuse service to, anyone who espouses an agenda of hatred or division or who is not otherwise committed to the values set forth above.**
+> **We will not work with, and reserve the right to refuse service to, anyone who espouses an agenda of hatred or division or who is not otherwise committed to the values set forth above.**
+
+# Mutual respect <a name="respect"></a>
+
+We believe we are responsible to ourselves, the people and the organizations we interact with, and the communities in which we live and work. As such, we hold ourselves not only to the credo of “Do no harm” but to respect the background, experiences, and truths of the individuals with whom we connect. Our mutual respect and code of conduct extends to the organizations and providers with whom we work. We have a no tolerance policy for any forms of harassment, racism, sexism, or any other form of discrimination, and reserve the right to end or refuse partnerships.
+
 
 # How we work <a name="mission"></a>
 
@@ -44,17 +52,22 @@ Our methodology and materials build upon expertise developed by providers in the
 
 We retain as little data as possible about our interactions with organizations and providers, and we prioritize keeping the information we do have safe, secure, anonymous, and free from attack. In some cases we will develop simple and secure records of organizations and providers in order to ensure the highest quality of service. In other cases, we will will retain no data at all. Organizations and providers can request that we retain zero data about our interactions, and we are developing secure and anonymous forms of intake and communications. More information about DSX’s privacy policy and approach to user security can be found [here](https://digitalsecurityexchange.org).
 
-We will be transparent about how we develop, fund, and maintain DSX’s processes, systems, services.
+> We will be transparent about how we develop, fund, and maintain DSX’s processes, systems, services.
 
 # How we vet providers <a name="vetting"></a>
 
-TBD
+We work only with providers who have shown a commitment to and experience working with vulnerable communities; have worked previously with our staff, Advisory Committee members, and/or other DSX providers; and who have demonstrated expertise in customized approaches to digital security. In addition, we require that providers have harmonious data retention policies to that of DSX [link to Privacy and Data Retention Policy] and agree to provide a minimum level of committed action and to participate in learning and feedback sessions with DSX.
 
 # The technology we use <a name="technology"></a>
 
-The DSX website is built using [Jekyll](https://jekyllrb.com/), the static website engine. This increases security and helps us maintain a simple site. All of our assets (except the DSX theme) are licensed under the XX license and are freely available for use by similar projects. You can find our codebase on [GitHub](https://github.com/digital-security-exchange).
+We believe in using technology that is free software/open source, because we can never fully verify the integrity of proprietary code -- if malware exists in open source software, we can find it. In addition, we believe in the participatory philosophy of free software projects, including our own, which we encourage others to contribute to, to audit, and to use.
 
-Our matchmaking platform is CDR, an open-source database and incident response system originally developed by our partners at [CiviCDR](https://civicdr.org/). The Digital Security Exchange, in partnership with [Guardian Project](https://guardianproject.info/), is a maintainer of the CDR platform and is actively developing new features and making them freely available to like-minded projects around the world. If you are interested in setting up your own DSX-like project, please contact us at [info@digitalsecurityexchange.org](mailto:info@digitalsecurityexchange.org).
+The DSX website is built using [Jekyll](https://jekyllrb.com/), the static website engine. This increases security and helps us maintain a simple site. All of our assets (except the DSX theme) are licensed under free software licenses and are freely available for use by similar projects. You can find our codebase on [GitHub](https://github.com/digital-security-exchange).
+
+Our matchmaking platform is CiviCDR, an open-source database and incident response system originally developed by our partners at [CiviCDR](https://civicdr.org/). The Digital Security Exchange, in partnership with [Guardian Project](https://guardianproject.info/), is a maintainer of the CDR platform and is actively developing new features and making them freely available to like-minded projects around the world. If you are interested in setting up your own DSX-like project, please contact us at [info@digitalsecurityexchange.org](mailto:info@digitalsecurityexchange.org).
+
+You can read more about methods we employ to secure user data here.
+
 
 # How we started and how we are funded <a name="funding"></a>
 
@@ -62,7 +75,7 @@ The Digital Security Exchange concept was first developed by Josh Levy after the
 
 In March 2017, after pulling together an initial working group and socializing and evolving the DSX concept, the project received a generous donation from an anonymous donor, providing crucial startup support. Soon after, the [Internet Systems Consortium](https://isc.org/) agreed to be be the project’s fiscal sponsor.
 
-The project has since received support from the Mozilla Foundation, Omidyar Network Fund, and Small Media Foundation. Josh is also grateful for a fellowship with Stanford’s Digital Civil Society Lab, which provided crucial early support for the DSX project.
+The project has since received support from the Mozilla Foundation, Omidyar Network Fund, and Small Media Foundation. We are also grateful to Stanford’s Digital Civil Society Lab, which provided crucial early support.
 
 # Who we are <a name="who"></a>
 
@@ -92,8 +105,40 @@ Debbie brings more than ten years of experience building high-performance techno
 
 **Ethan Zuckerman**, director of the Center for Civic Media at MIT, and an Associate Professor of the Practice at the MIT Media Lab.
 
-## Thank you
+# FAQ
 
-Many friends and organizations have been instrumental in the evolution of the DSX project. They include:
+**Why should I be worried about digital security if I’m not working with the government, providing any online services, etc.?**
 
-Craig Aaron, Lucy Bernholz and Stanford’s Digital Civil Society Lab, Gabriella Coleman, Malkia Cyril, the team at Echo & Co., Mahmood Enayat, Emily Gertz, Tom Glaisyer, Allen Gunn, Holly Kilroy, Mallory Knodel, Kimberly Longey, Alfredo Lopez, Cayden Mak, MayFirst/People Link, Dan Meredith, Matt Mitchell, Soraya Okuda, Erica Olsen, Lenore Palladino,  Melissa Romaine, Bruce Schneier, Toby Shulruff, Micah Sifry, Randall Smith, Josh Stearns, Trevor Timm, Misty Perez Truedson, Tracy van Slyke, Carol Waters, Billy Wimsatt, Deanna Zandt, and of course all current members of the Advisory Committee.
+Most civil society organizations, non-profits, journalistic organizations, etc. have a wealth of sensitive information about their donors and served populations that is accessed from a variety of devices and locations by their staff, board, and volunteers. These days most hacks happen due to opportunity, not necessarily a targeted malicious attack. We work under the premise that every organization will have their digital security tested for vulnerabilities and it is less costly to address these vulnerabilities before a serious threat.
+
+
+**How do I know what level of access or interaction with DSX and its providers I need?**
+
+DSX will assess your initial communication with us and follow-up with further assessment to evaluate your current situation and mutually determine what your needs and resources are to make the appropriate match with a provider.
+
+
+**What if I don’t like/agree with the approach proposed by the provider?**
+
+Your provider will propose a plan to you before you start actively working together. You are encouraged to ask questions, consult with other external and internal partners, and finalize an approach that works for all parties.
+
+**What if the recommended approach doesn’t work? Or I implemented the recommended approach but we still got hacked/lost data, etc.**
+
+We trust that our providers are experts in the field and with your particular context and have recommended the best plan to mitigate risks and threats. Should the recommended approach fail to mitigate risks we would evaluate the plan, execution, and the resulting action for the best path forward.
+
+There may also be the situation that the recommended approach as provided and executed was the correct one for your organization and worked but that there were new threats that arose in the interim that could not be predicted.
+
+**What if our organization has a conflict with the provider?**
+We strive to make the best match between your organization and the provider. If there is a conflict that arises that you are unable to resolve, please reach out to us and we will work with you to make it better.
+
+**How do we know we need better security?**
+Good question and we’re glad you’re asking it. We have this survey you can take to look at how your organization works and what you already have in place to minimize risk.
+
+**How much money and commitment will this take?**
+We can’t quote a price or timeframe as every organization has a different security and risk profile. However, there are various factors that will determine cost and time, such as your imminent risk, how much importance you place on securing your networks, involvement by your board, etc.
+
+**I notice you provide your PGP fingerprint and a Signal number. What are they and why do you use them?**
+PGP stands for "Pretty Good Privacy" and is an encryption protocol that provides cryptographic privacy and authentication for data communication. PGP is used for signing, encrypting, and decrypting texts, emails, files, directories, and whole disk partitions and to increase the security of email communications. We use it to conduct private and secure conversations over email and to encrypt data submitted through our organizational and provider intake forms.
+
+Signal is an encrypted communications application for iOS, Android, Mac, Windows, and Linux. It uses mobile phone numbers as identifiers, and uses its trusted protocol to enable end-to-end encryption for communications with other Signal users.
+
+We encourage you to contact via encrypted email or Signal, but we don’t require it. No matter how you contact us, your identity will remain private and we won’t store any data we don’t need to help us assist you. For me information on our data security and retention policies, go here.

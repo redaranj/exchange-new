@@ -1,0 +1,64 @@
+html, body, div, h1, h2, h3, h4, h5, h6 {
+  // margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $body-bg-color;
+  position: relative;
+
+  //touch-action: manipulation // remove 300ms delay on tapping
+  @include susy-breakpoint($md) {
+    touch-action: auto;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.pane-footer-elements {
+  float: left;
+}
+
+.pane-footer-elements,
+.pane-footer-elements *,
+.pane-menu-menu-footer-menu,
+.pane-menu-menu-footer-menu *,
+.panel-col-bottom,
+.panel-col-bottom *
+.panel-col-bottom ul.menu {
+  display: inline;
+  text-align: center;
+  float: none;
+  vertical-align: text-bottom;
+}
+
+.pane-footer-elements + .panel-separator {
+  display: none;
+}
+
+.pane-menu-menu-footer-menu ul li,
+.pane-menu-menu-footer-menu ul li a {
+  display: inline;
+  margin: 0 8px;
+}
+
+.pane-menu-menu-footer-menu {
+  font-size: 10px;
+}
+
+.cc {
+  margin-left: -20px;
+}

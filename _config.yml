@@ -61,7 +61,7 @@ getStartedCardData:
 howItWorksCardData:
 - { number: '1', title: 'Request digital security assistance', href: '/request-assistance', content: 'Social sector organizations come to Digital Security Exchange (DSX) seeking help with digital security assessments and training.', graphic: 'svg-howItWorks1.html' }
 - { number: '2', title: 'Request to become a provider', href: '/become-a-provider', content: 'Digital security experts interested in receiving referrals through Digital Security Exchange request to become DSX providers.', graphic: 'svg-howItWorks2.html' }
-- { number: '3', title: 'Learn more about how we work', href: '/how-it-works', content: 'DSX matches organizations in need with the appropriate digital security experts who can provide needed support.', graphic: 'svg-howItWorks3.html' }
+- { number: '3', title: 'Learn more', href: '/how-it-works', content: 'DSX matches organizations in need with the appropriate digital security experts who can provide needed support.', graphic: 'svg-howItWorks3.html' }
 
 
 sass:

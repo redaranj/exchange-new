@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-  <title>Wheeeee ekj hekjh ekj hekj hekj hekj ehk - Digital Security Exchange</title>
+  <title>DSX</title>
   <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -87,7 +87,7 @@
     
       <li>
         
-          <a href="#howItWorks">How it Works</a>
+          <a href="/#howItWorks">How it Works</a>
         
       </li>
     
@@ -264,8 +264,8 @@ as “mt.cgi”; if the “plugins” directory doesn’t already exist, use
 your FTP program to create it. Your installation should look like
 this:</p>
 
-    <div class="highlighter-rouge"><pre class="highlight"><code>(mt home)/plugins/Markdown.pl
-</code></pre>    </div>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(mt home)/plugins/Markdown.pl
+</code></pre></div>    </div>
   </li>
   <li>
     <p>Once installed, Markdown will appear as an option in Movable Type’s
@@ -337,8 +337,8 @@ pre-installed on Mac OS X 10.3 (Panther).</p>
     <p>Copy the “Markdown.pl” file to appropriate filters folder in your
 “BBEdit Support” folder. On Mac OS X, this should be:</p>
 
-    <div class="highlighter-rouge"><pre class="highlight"><code>BBEdit Support/Unix Support/Unix Filters/
-</code></pre>    </div>
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>BBEdit Support/Unix Support/Unix Filters/
+</code></pre></div>    </div>
 
     <p>See the BBEdit documentation for more details on the location of
 these folders.</p>
@@ -357,23 +357,23 @@ the Filters floating palette</p>
 <p>By default, Markdown produces XHTML output for tags with empty elements.
 E.g.:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>&lt;br /&gt;
-</code></pre></div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;br /&gt;
+</code></pre></div></div>
 
 <p>Markdown can be configured to produce HTML-style tags; e.g.:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>&lt;br&gt;
-</code></pre></div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;br&gt;
+</code></pre></div></div>
 
 <h3 id="movable-type-1">Movable Type</h3>
 
 <p>You need to use a special <code class="highlighter-rouge">MTMarkdownOptions</code> container tag in each
 Movable Type template where you want HTML 4-style output:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>&lt;MTMarkdownOptions output='html4'&gt;
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;MTMarkdownOptions output='html4'&gt;
     ... put your entry content here ...
 &lt;/MTMarkdownOptions&gt;
-</code></pre></div>
+</code></pre></div></div>
 
 <p>The easiest way to use MTMarkdownOptions is probably to put the
 opening tag right after your <code class="highlighter-rouge">&lt;body&gt;</code> tag, and the closing tag right
@@ -383,18 +383,18 @@ before <code class="highlighter-rouge">&lt;/body&gt;</code>.</p>
 publish the raw Markdown-formatted text without translation into
 (X)HTML, set the <code class="highlighter-rouge">output</code> attribute to ‘raw’:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>&lt;MTMarkdownOptions output='raw'&gt;
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;MTMarkdownOptions output='raw'&gt;
     ... put your entry content here ...
 &lt;/MTMarkdownOptions&gt;
-</code></pre></div>
+</code></pre></div></div>
 
 <h3 id="command-line">Command-Line</h3>
 
 <p>Use the <code class="highlighter-rouge">--html4tags</code> command-line switch to produce HTML output from a
 Unix-style command line. E.g.:</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>% perl Markdown.pl --html4tags foo.text
-</code></pre></div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>% perl Markdown.pl --html4tags foo.text
+</code></pre></div></div>
 
 <p>Type <code class="highlighter-rouge">perldoc Markdown.pl</code>, or read the POD documentation within the
 Markdown.pl source code for more information.</p>
@@ -438,7 +438,7 @@ also deserve thanks for their feedback.</p>
             
                 <li>
                     
-                        <a href="#howItWorks">How it Works</a>
+                        <a href="/#howItWorks">How it Works</a>
                     
                 </li>
             
