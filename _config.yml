@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Digital Security Exchange
-email: john@echo.co
+email: ops@digitalsecurityexchange.org
 description: >- # this means to ignore newlines until "baseurl:"
   Digital Security Exchange.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -34,25 +34,28 @@ reload_port: 5678    # If you don't want to use the default port
 
 topnav:
 - { title: 'About', href: '/about/' }
-- { title: 'See All Updates', href: '/updates/' }
+- { title: 'Support the DSX', href: '/support/' }
+- { title: 'Partner Log In', href: 'Https://staging.civicdr.org' }
 
 footernav:
-- { title: 'How it Works', href: '#howItWorks' }
+- { title: 'DSX at a Glance', href: '/at-a-glance' }
 - { title: 'Become a Provider', href: '/become-a-provider/' }
 - { title: 'Request Assistance', href: '/request-assistance/' }
-- { title: 'Support the Exchange', href: '/support-the-exchange/' }
+
 - { title: 'About', href: '/about' }
-- { title: 'Updates', href: '/updates' }
+- { title: 'News', href: '/updates' }
 
 mainnav:
-- { title: 'How it Works', href: '#howItWorks' }
+- { title: 'DSX at a Glance', href: '/at-a-glance' }
 - { title: 'Request Assistance', href: '/request-assistance/' }
 - { title: 'Become a Provider', href: '/become-a-provider/' }
-- { title: 'Support the Exchange', href: '/support-the-exchange/' }
+- { title: 'News', href: '/updates' }
 
 finenav:
 - { title: 'Privacy', href: '/privacy' }
+- { title: 'Security', href: '/security' }
 - { title: 'Terms of Use', href: '/terms' }
+
 
 getStartedCardData:
 - { number: '1', title: 'Request assistance', content: 'Get assistance for you or your organization', color: '$cyan' }
@@ -61,7 +64,7 @@ getStartedCardData:
 howItWorksCardData:
 - { number: '1', title: 'Request digital security assistance', href: '/request-assistance', content: 'Social sector organizations come to Digital Security Exchange (DSX) seeking help with digital security assessments and training.', graphic: 'svg-howItWorks1.html' }
 - { number: '2', title: 'Request to become a provider', href: '/become-a-provider', content: 'Digital security experts interested in receiving referrals through Digital Security Exchange request to become DSX providers.', graphic: 'svg-howItWorks2.html' }
-- { number: '3', title: 'Learn more about how we work', href: '/how-it-works', content: 'DSX matches organizations in need with the appropriate digital security experts who can provide needed support.', graphic: 'svg-howItWorks3.html' }
+- { number: '3', title: 'Learn more', href: '/at-a-glance', content: 'DSX matches organizations in need with the appropriate digital security experts who can provide needed support.', graphic: 'svg-howItWorks3.html' }
 
 
 sass:

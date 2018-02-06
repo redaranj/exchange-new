@@ -2,7 +2,7 @@
 
 <div class="getStartedCard">
   <span>{{ d.number }}</span>
-  <a href="#" class="bigButton colorClass{{d.number}}">{{ d.title }}</a>
+  <a href="{{ d.href }}" class="bigButton colorClass{{d.number}}">{{ d.title }}</a>
   <p>{{ d.content| truncate: 280 }}</p>
 </div>
 
@@ -36,7 +36,7 @@
     @extend .bigButton;
     left: calc(-50% + 75px);
     @include mq(smd) { width: 300px; left: calc(50% - 168px);}
-  
+
     &.colorClass{{d.number}} {
       background-color: {{d.color}};
       &:hover{
