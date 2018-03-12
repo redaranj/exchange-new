@@ -8,7 +8,8 @@ Your support helps the DSX continue to provide a unique service for advocacy org
 
 We strive to support providers for travel, accommodations, and other fees associated with DSX-related engagements. Your donation today helps us continue to provide this crucial service.
 
-Note: Your donation is tax-deductible and will be processed by Internet Systems Consortium, our fiscal sponsor and a 501(c)(3) nonprofit.
+Note: Your donation will be processed by Internet Systems Consortium, our fiscal sponsor. Internet Systems Consortium is a not-for-profit 501(c)(3) entity which develops and maintains BIND, ISC DHCP and Kea open source software and exists to support the Internet. Their Federal Tax ID is 20-0141248. Your donation may be tax deductible.
+
 
 <form action="/your-server-side-code" method="POST">
   <script
