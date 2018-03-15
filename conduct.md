@@ -15,11 +15,11 @@ Anyone who violates this code of conduct may be sanctioned or expelled from thes
 
 ## Harassment
 
-Harassment may occur online or in person. Examples of unacceptable behaviours include:
+Harassment may occur online or in person. Examples of unacceptable behaviors include:
 1. Offensive comments which reinforce social structures of domination and/or are related to gender, gender identity and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, age, race, or religion.
 2. Unwelcome comments regarding a person’s lifestyle choices and practices, including those related to food, health, parenting, drugs, and employment.
 3. Deliberate misgendering or use of “dead” or rejected names.
-4. Gratuitous or off-topic sexual images or behaviour in spaces where they’re not appropriate.
+4. Gratuitous or off-topic sexual images or behavior in spaces where they’re not appropriate.
 5. Physical contact and simulated physical contact (eg, textual descriptions like “hug” or “backrub”) without consent or after a request to stop.
 6. Threats of violence.
 7. Incitement of violence towards any individual, including encouraging a person to commit suicide or to engage in self-harm.
@@ -33,7 +33,7 @@ Harassment may occur online or in person. Examples of unacceptable behaviours in
 15. Deliberate “outing” of any aspect of a person’s identity without their consent except as necessary to protect vulnerable people from intentional abuse.
 16. Publication of non-harassing private communication.
 17. Publishing another persons’ private information, such as physical or electronic addresses, without explicit permission
-18. Advocating for, or encouraging, any of the above behaviour
+18. Advocating for, or encouraging, any of the above behavior
 19. Drugging food or drink
 20. Violating the event privacy policy in order to attract negative attention to an attendee
 21. Enlisting the help of others, whether in person or online, in order to target an attendee

@@ -15,7 +15,7 @@ Below is an index of background documents that give more context to the work of 
 - [FAQ](/about#faq)
 - [How DSX is funded](/about#funding)
 - [Our approach to security](/security)
-- Onboarding Modules (Intake, Initial Assessment)
+- [Onboarding Modules (Intake, Initial Assessment)](/modules)
 - Participation addendum
 - Pods
 - [Survey: Do I need to think about digital security?](https://docs.google.com/forms/d/e/1FAIpQLSd3BV2e4Pd1nYXYSfqTeUOcuL6NzfKePJsxIApISizxpGaMag/viewform)
